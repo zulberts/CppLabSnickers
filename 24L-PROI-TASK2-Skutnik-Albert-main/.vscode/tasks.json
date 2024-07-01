@@ -1,0 +1,25 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "make project",
+            "command": "make",
+            "args": [
+                "-o",
+                "${fileDirname}/time_tests.exe"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Task written by hand."
+        }
+    ],
+    "version": "2.0.0"
+}
